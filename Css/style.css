@@ -1,7 +1,7 @@
 :root {
   --title-color: #212121;
   --main-font: roboto, sans-serif;
-  --background-color: #e5e5e5;
+  --background-color: #ffffff;
 }
 body {
   font-family: var(--main-font);
@@ -74,6 +74,7 @@ body {
   letter-spacing: 0.06em;
   color: #212121;
   cursor: pointer;
+  background-color: #7dc0f7;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -121,9 +122,6 @@ body {
   text-align: center;
   letter-spacing: 0, 03em;
   color: var(--title-color);
-}
-.team-list {
-  background-color: #ffffff;
 }
 .team-title {
   font-weight: 500;
@@ -202,4 +200,8 @@ body {
 }
 .project-list {
   background-color: #ffffff;
+}
+/* ----------footer---------- */
+.footer-desk {
+  color: #ffffff;
 }
