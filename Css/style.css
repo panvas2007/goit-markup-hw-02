@@ -19,8 +19,11 @@ body {
   list-style: none;
 }
 .header-list,
-.header-contact {
+.header-items {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-logo,
 .footer-logo {
@@ -49,8 +52,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.header-phone,
-.header-mail {
+.header-contact {
   color: var(--contact-color);
 }
 .link:hover,
