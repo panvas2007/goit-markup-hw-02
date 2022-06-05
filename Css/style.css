@@ -14,6 +14,7 @@ body {
 /*--------------------- header*/
 .header {
   background-color: var(--background-color);
+  outline: 2px solid tomato;
 }
 .list {
   list-style: none;
@@ -60,6 +61,9 @@ body {
   color: var(--logo-color);
 }
 /* ------------hero-section-*/
+.hero {
+  outline: 2px solid green;
+}
 .hero-section {
   background-color: #2f303a;
 }
